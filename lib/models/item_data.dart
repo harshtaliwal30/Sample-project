@@ -3,19 +3,9 @@ class ItemData {
     'Option A',
     'Option A',
     'Option A',
-    'Option A',
-    'Option A',
-    'Option A',
-    'Option A',
-    'Option A',
-    'Option A'
   ];
 
   List listB = [
-    'B Mode',
-    'B Mode',
-    'B Mode',
-    'B Mode',
     'B Mode',
     'B Mode',
     'B Mode',
@@ -67,12 +57,6 @@ class ItemData {
   ];
 
   List listD = [
-    'Mode D',
-    'Mode D',
-    'Mode D',
-    'Mode D',
-    'Mode D',
-    'Mode D',
     'Mode D',
     'Mode D',
     'Mode D',

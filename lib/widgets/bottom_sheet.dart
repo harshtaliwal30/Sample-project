@@ -18,10 +18,10 @@ class _OpenBottomSheetState extends State<OpenBottomSheet> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 800,
       margin: EdgeInsets.all(10),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisSize: MainAxisSize.min,
         children: <Widget>[
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -64,9 +64,9 @@ class _OpenBottomSheetState extends State<OpenBottomSheet> {
               ),
             ],
           ),
-          Container(
-            height: 340,
+          Flexible(
             child: GridView.builder(
+              shrinkWrap: true,
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 4,
                 mainAxisSpacing: 1,
